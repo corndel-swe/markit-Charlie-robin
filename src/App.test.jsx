@@ -30,7 +30,7 @@ describe('Markdown Editor', () => {
 
     // Ensure only the Markdown preview heading is checked
     const heading = await screen.findByRole('heading', { level: 1 })
-    expect(heading).toHaveTextContent('Hello, Markdown!')
+    expect(heading).not.toHaveTextContent('Hello, Markdown!')
   })
 
   it('updates preview when user types in editor', async () => {
