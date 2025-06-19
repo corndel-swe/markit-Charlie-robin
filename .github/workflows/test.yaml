@@ -1,4 +1,4 @@
-name: Run Vitest on Push & PR
+name: Run Vitest on PR
 
 on:
   pull_request:

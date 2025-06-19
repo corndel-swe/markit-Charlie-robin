@@ -1,5 +1,7 @@
 # Markit
 
+[![Run Vitest on PR](https://github.com/corndel-swe/markit-Charlie-robin/actions/workflows/test.yaml/badge.svg)](https://github.com/corndel-swe/markit-Charlie-robin/actions/workflows/test.yaml)
+
 Welcome to Markit!
 
 This app is the frontend of a note-taking application, allowing users to write
