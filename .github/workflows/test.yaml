@@ -2,9 +2,6 @@ name: Run Vitest on Push & PR
 
 on:
   push:
-    branches:
-      - main
-      - solution
   pull_request:
     branches:
       - main
